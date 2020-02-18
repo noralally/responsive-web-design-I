@@ -1,3 +1,211 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+/* START OF CUSTOM CSS */
+body {
+	width: 900px;
+	margin: auto;
+	text-align: center;
+}
+p {
+	margin: 20px 20px 0 0;
+}
+hr {
+	border: 1px solid white;
+}
+h3 {
+	font-family: 'Open-Sans', sans-serif;
+	font-weight: 600;
+}
+/* Nav Section */
+nav {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	padding: 10px 0;
+	text-align: left;
+	z-index: 1;
+	width: 900px;
+	background-color: white;
+}
+nav a.nav-link {
+	text-decoration: none;
+	color: black;
+}
+nav img {
+	margin-left: 54px;
+}
+/* Header Section */
+	/* home page header css */
+.home-header {
+	display: flex;
+	margin-top: 30px;
+	background-size: 55%;
+	z-index: -1;
+	padding: 150px;
+}
+.main-header {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	justify-content: center;
+	margin: auto;
+}
+.home-header h1 {
+	font-size: 60px;
+	font-family: 'Open-Sans', sans-serif;
+	text-align: center;
+	color: rgb(2, 30, 56);
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 10px;
+	padding: 20px;
+}
+.main-header button {
+	margin: auto;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(97, 97, 97);
+	color: rgb(27, 27, 27);
+	padding: 7px 40px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	width: 50%;
+	cursor: pointer;
+}
+/* Upper Content and Lower Content Sections */
+	/* home page content section */
+.content-section {
+	padding: 20px 0;
+	text-align: left;
+	margin: 0 0;
+	display: flex;
+	justify-content: space-evenly;
+}
+.upper-content {
+	width: 50%;
+	padding: 10px 0;
+}
+.upper-content p {
+	width: 100%;
+}
+.middle-img {
+	width: 100%;
+}
+.lower-content {
+	width: 35%;
+	padding: 10px 0;
+}
+/* Home Page Address Section */
+address {
+	margin: 30px 0;
+	text-align: left;
+}
+/* Footer Section */
+footer {
+	padding-bottom: 100px;
+}
+
+@media(max-width: 800px){
+    .mid-img{
+     display: none;
+}
+
+
+    .mobile{
+        display: none
+    }
+    .desktop{
+        display:block;
+        text-align:center;
+    }
+    nav a{
+        margin:0 5%;
+    }
+}
+
+    
+    nav{
+        flex-direction:column-reverse;
+        align-items:center;
+    }
+.links
+    width:100%
+    }
+.logo{
+    margin:2% 0;
+    }
+.cta{
+    justify-content:center;
+        }
+
+.ctaImg{
+    display:none;
+    }
+
+footer{
+    text-align:center;
+    }
+}
+@media (max-width: 500px){
